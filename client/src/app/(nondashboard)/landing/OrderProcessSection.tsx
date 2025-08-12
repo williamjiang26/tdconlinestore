@@ -1,38 +1,30 @@
-"use client";
 import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
-import Image from "next/image";
-import Link from "next/link";
-import HeroPhoto from "../../../assets/tdcdashboard.png";
+import React from "react";
 
-const CallToActionSection = () => {
+const OrderProcessSection = () => {
   return (
     <div className="relative py-24 flex flex-col mx-auto max-w-xl space-y-6 ">
-      <div className="max-w-xl mx-auto text-4xl">
-        {" "}
-        Explore our variety of products
-      </div>
-      <Button className="w-32 aspect-[2/4] max-w-xl mx-auto rounded-none text-sm">Browse</Button>
+      <div className="max-w-xl mx-auto text-6xl">How to order</div>
       <div className="flex flex-row w-full justify-center gap-14 mx-auto max-w-xl">
         <div className="flex flex-col ">
           <div className="w-48 h-48 border-1 border-black">Image</div>
-          <div></div>
+          <div>Once order is placed</div>
         </div>
         <div className="flex flex-col">
           <div className="w-48 h-48 border-1 border-black">Image</div>
-          <div></div>
+          <div>Schedule a measurement - we will send you a link</div>
         </div>
         <div className="flex flex-col">
           <div className="w-48 h-48 border-1 border-black">Image</div>
-          <div></div>
+          <div>Track your order - we will give you updates</div>
         </div>
         <div className="flex flex-col">
           <div className="w-48 h-48 border-1 border-black">Image</div>
-          <div></div>
+          <div>We deliver and install - we will give you a call</div>
         </div>
       </div>
     </div>
   );
 };
 
-export default CallToActionSection;
+export default OrderProcessSection;

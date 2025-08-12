@@ -1,17 +1,19 @@
 "use client";
-import HeroSection from "./HeroSection";
-import FeaturesSection from "./FeaturesSection";
-import DiscoverSection from "./DiscoverSection";
+import FeaturedSection from "./FeaturedSection";
 import CallToActionSection from "./CallToActionSection";
 import FooterSection from "./FooterSection";
+import OrderProcessSection from "./OrderProcessSection";
+import ContactSection from "./ContactSection";
 
 const Landing = () => {
   return (
     <div>
-      <HeroSection />
-      <FeaturesSection />
-      <DiscoverSection />
+      <FeaturedSection />
       <CallToActionSection />
+      <OrderProcessSection />
+      <ContactSection />
+      {/* accordian
+      <FAQSection /> */}
       <FooterSection />
     </div>
   );
