@@ -7,7 +7,7 @@ const ContactSection = () => {
       <div className="text-3xl">Our team is ready to help!</div>
       <div className="">Call: 718-788-2888</div>
       <div className="text-lg">
-        or fill out this questionaire and we'll get to you shortly
+        or fill out this questionaire and we&apos;ll get to you shortly
       </div>
       <Button className="rounded-none w-48 mx-auto max-w-xl">
         Pre-sales questionaire form

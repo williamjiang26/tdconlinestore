@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       products
-      <Image src={Door} height={100} width={100} />
+      {/* <Image src={Door} height={100} width={100} /> alt={'door'} */}
     </div>
   );
 };
