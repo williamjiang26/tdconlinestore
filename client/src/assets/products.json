@@ -1,0 +1,32 @@
+[
+  {
+    "id": "001",
+    "type": "Double",
+    "color": "Black",
+    "finish": "Med Copper",
+    "glass": "Green Shatter",
+    "width": "74",
+    "height": "96",
+    "price": "6000"
+  },
+  {
+    "id": "002",
+    "type": "Double",
+    "color": "Black",
+    "finish": "Med Copper",
+    "glass": "Green Shatter",
+    "width": "74",
+    "height": "96",
+    "price": "6000"
+  },
+  {
+    "id": "003",
+    "type": "Double",
+    "color": "Black",
+    "finish": "Med Copper",
+    "glass": "Green Shatter",
+    "width": "74",
+    "height": "96",
+    "price": "6000"
+  }
+]
